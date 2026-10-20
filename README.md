@@ -44,7 +44,7 @@ and pass it using `--dart-define`.
 Clone the repository:
 
 ```bash
-git clone <REPOSITORY_URL>
+git clone https://github.com/Artemov63/gif_search_app.git
 ```
 
 Navigate to the project directory:
