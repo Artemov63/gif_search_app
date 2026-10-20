@@ -36,7 +36,7 @@ class GifSearchBar extends StatelessWidget {
             hintStyle: TextStyle(color: Colors.white60),
             prefixIcon: Icon(Icons.search, color: Colors.white70),
             border: InputBorder.none,
-            contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 0),
           ),
         ),
       ),
