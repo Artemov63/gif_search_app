@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 
 class GifSearchBar extends StatelessWidget {
   const GifSearchBar({
@@ -36,7 +37,12 @@ class GifSearchBar extends StatelessWidget {
             hintStyle: TextStyle(color: Colors.white60),
             prefixIcon: Icon(Icons.search, color: Colors.white70),
             border: InputBorder.none,
-            contentPadding: EdgeInsets.symmetric(horizontal: 12, vertical: 0),
+            contentPadding: EdgeInsets.fromLTRB(
+              12,
+              kIsWeb ? 0 : 0,
+              12,
+              kIsWeb ? 6 : 0,
+            ),
           ),
         ),
       ),
